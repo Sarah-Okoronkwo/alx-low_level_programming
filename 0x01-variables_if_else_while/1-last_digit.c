@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Prints last digit of random numbers
- *
- * Return: Return 0
- */
+* main - Prints last digit of random numbers
+*
+* Return: Return 0
+*/
 int main(void)
 {
 	int n;
@@ -14,7 +14,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	last = n % 10;
-
+	
 	if (last == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, last);
@@ -23,7 +23,7 @@ int main(void)
 	{
 		if (last > 5)
 		{
-			printf("Last digit of %d is %d and is graeter than 5\n", n, last); 
+			printf("Last digit of %d is %d and is graeter than 5\n", n, last);
 		}
 		else if (last < 6)
 		{
