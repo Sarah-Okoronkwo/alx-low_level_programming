@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+/**
+ * main -entry point of programs
+ *
+ * Return: return 0
+ */
 int main(void)
 {
 	int n;
